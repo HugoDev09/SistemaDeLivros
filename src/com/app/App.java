@@ -55,6 +55,7 @@ public class App {
 
             default:
                 System.out.println("Opções inválidas.");
+                break;
         }
         scanner.close();
     }
