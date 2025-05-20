@@ -23,7 +23,7 @@ public class App {
 
         switch (option) {
             case 1:
-                System.out.println("Livro que seja inserir: ");
+                System.out.println("Livro que deseja inserir: ");
                 books.setName(scanner.nextLine());
                 System.out.println("Livro " + books.getName() + " adicionado.");
                 break;
